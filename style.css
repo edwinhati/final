@@ -1,64 +1,80 @@
-body {
+* {
     background-color: #FBF3E4;
 }
 
 .streamo {
-    width: 20em;
+    width: 10em;
 }
 
 .search-input {
     position: relative;
     background: #C4C4C4;
     border: none;
-    left: 2%;
-    width: 35%;
-    height: 100px;
+    left: 1%;
+    width: 50%;
+    height: 40px;
     border-radius: 100px;
 }
 
-.account {
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    right: 32%;
+.search-icon {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    right: 3%;
     border: none;
     background: #C4C4C4;
-    border-radius: 10px;
+    border-radius: 100px;
+
 }
-.setting {
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    right: 20%;
+
+.account {
+    position: relative  ;
+    width: 170px;
+    height: 40px;
     border: none;
     background: #C4C4C4;
     border-radius: 10px;
 }
 .notification {
-    position: absolute;
-    width: 350px;
-    height: 100px;
-    right: 5%;
+    position: relative  ;
+    width: 170px;
+    height: 40px;
     border: none;
+    right: -2%;
     background: #C4C4C4;
     border-radius: 10px;
 }
 
-.account-icon {
-    background: #C4C4C4;
-    left: -40%;
-}
-
-.account-text {
-    left: 20px;
-    top: 8px;
-    background: #C4C4C4;
-}
 
 .menu {
+    position: relative;
     background-color: #C4C4C4;
-    height: 800px;
+    height: 400px;
     width: 15%;
     border-radius: 20px;
     margin-left: 2%;
+    align-items: ;
+}
+.content {
+    position: relative;
+    background-color: #C4C4C4;
+    height: 500px;
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 2%;
+}
+
+.menu-menu {
+    position: relative;
+    background-color: #FBF3E4;
+    border-radius: 20px;
+    width: 8em;
+    height: 40px;
+    left: 15%;
+    border: none;
+    margin: 5px;
+}
+
+i {
+    background-color: transparent;
 }
